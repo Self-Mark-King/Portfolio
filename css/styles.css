@@ -1,0 +1,125 @@
+    
+@import url('https://fonts.googleapis.com/css?family=Lobster%7CRaleway&display=swap');
+/* global */
+.container-fluid{
+    padding: 0;
+    margin: 0;
+}
+#our_story, #review {
+    min-height: 600px;
+}
+
+.wrap{
+    /* min-height: 100vh; */
+}
+
+/* nav section */
+
+.nav li a:hover{
+    background-color: transparent;
+}
+.navbar-default{
+    border-color:transparent;
+    background-color: #a0bf55;
+    color: #f9201e;
+    /* z-index: -10; */
+}
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus{
+    color: #f9201e;
+    background-color:rgba(160,191,85.5);
+}
+.navbar-default .navbar-nav>li>a{
+    color:#f9201e;
+    font-size: 20px;
+    text-shadow: 1pc 1xp 2px #0a0a0a;
+}
+.navbar-default .navbar-nav li a:hover,
+.navbar-default .navbar-nav li:focus{
+    color: #f8512f;
+    background-color: #a0bf55;
+}
+nav.navbar{
+    position: absolute;
+    top:100;
+    right:0;
+    left:0;
+    z-index: 20;
+}
+.navbar-brand>img{
+    margin-top:  -20px;
+    height: 80px;
+    width: 160px;
+}
+/* end nav */
+/* jumbotron */
+.jumbotron {
+    background-image: url('../img/peopleslake.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    margin-bottom: 0px;
+}
+/* end jumbtron */
+
+/* footer */
+aside a,
+footer {
+    background-color: #a0bf55;
+}
+footer {
+    padding-top: 20px;
+    max-height: 100%;
+}
+footer a {
+    color: #5c433f;
+}
+footer img {
+    height: 90px;
+}
+.contact_info {
+    padding-left: 40px;
+    border-right: 1px solid #333;
+    border-left: 1px solid #333;
+}
+.social,
+.contact_info {
+    padding-top: 15px;
+}
+footer .fine_print {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: #333;
+}
+@media(max-width: 768px) {
+    .centered {
+        float: none;
+        margin: 0 auto;
+    }
+    nav {
+        padding-top: 0px;
+        padding-bottom: 10px;
+        top: 5px;
+    }
+    .social {
+        margin: 20px 10px 0px;
+    }
+    aside {
+        margin-bottom: 60px;
+    }
+}
+.vl{
+    /* border-left: 2px solid black; */
+    margin-top: 15px;
+}
+i{
+    padding-right: 5px;
+} 
+.logo{
+    height: 80px;
+    width: 160px;
+    margin-top: 40px;
+}
+
+/* end footer */
