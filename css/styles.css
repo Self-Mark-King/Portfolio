@@ -42,7 +42,7 @@
 }
 nav.navbar{
     position: absolute;
-    top:100;
+    top:90;
     right:0;
     left:0;
     z-index: 20;
@@ -62,6 +62,42 @@ nav.navbar{
     margin-bottom: 0px;
 }
 /* end jumbtron */
+
+/* projects */
+#project-box{
+    display: flex;
+    justify-content: space-around;
+    background-color: #3e7207;
+    /* margin-top: 50px; */
+    padding: 40px;
+}
+.projects{
+    border: #f8512f 1px solid;
+    background-color:#e4bb26;
+    margin-top: 52px;
+    /* margin-left: 10px; */
+    /* margin-right: 10px; */
+    align-content: center;
+    padding-left: 65px;
+}
+.projects img{
+    height:200px;
+    width:300px;
+}   
+.test{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    margin-top: 42px;
+    /* text-align: justify; */
+    background-color: #3e7207;
+}
+.test h2{
+    padding-top: 45px;
+}
+
+
+/* end projects */
 
 /* footer */
 aside a,
