@@ -79,7 +79,8 @@ nav.navbar{
     padding-bottom: 50px;
 }
 .projects{
-    border: #f8512f 1px solid;
+    border-radius: 4px;
+    border: solid 1px #f9201e;
     background-color:#e4bb26;
     margin-top: 52px;
     /* margin-left: 10px; */
@@ -126,6 +127,9 @@ nav.navbar{
     padding: 30px;
     background-color: #e4bb26;
     margin-top: 50px;
+    border-radius: 4px;
+    border: solid 1px #f9201e;
+
 }
 .c_text{
     /* display: flex;
@@ -133,11 +137,13 @@ nav.navbar{
     padding: 30px;
     background-color: #e4bb26;
     margin-top: 50px;
+    border-radius: 4px;
+    border: solid 1px #f9201e;
 }
 .col-md-5{
     padding: 30px;
 }
-span::after{
+.form-group span::after{
     content: "*";
     color: #f8512f;
 }
