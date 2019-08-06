@@ -1,5 +1,5 @@
     
-@import url('https://fonts.googleapis.com/css?family=Lobster%7CRaleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oxygen|Rubik&display=swap');
 /* global */
 .container-fluid{
     padding: 0;
@@ -58,7 +58,7 @@ nav.navbar{
     background-image: url('../img/peopleslake.jpg');
     background-size: cover;
     background-position: center;
-    height: 600px;
+    height: 640px;
     margin-bottom: 0px;
 }
 /* end jumbtron */
@@ -96,7 +96,12 @@ nav.navbar{
     padding-top: 45px;
     color: rgb(173, 204, 137);
 }
-
+.oxygen{
+    font-family: 'Oxygen', sans-serif;
+}
+.rubik{
+    font-family: 'Rubik', sans-serif;
+}
 
 /* end projects */
 
@@ -105,14 +110,24 @@ nav.navbar{
     display: flex;
     justify-content: space-evenly;
     margin-top: 50px;
+    background-color: #3c7207;
 }
 .contact_form{
     padding: 30px;
+    background-color: #e4bb26;
 }
 .c_text{
     /* display: flex;
     justify-content: space-around; */
     padding: 30px;
+    background-color: #e4bb26;
+}
+.col-md-5{
+    padding: 30px;
+}
+span::after{
+    content: "*";
+    color: #f8512f;
 }
 /* end contact-body */
 
