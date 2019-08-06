@@ -75,7 +75,7 @@ nav.navbar{
     justify-content: space-around;
     /* margin-top: 20px; */
     /* margin-bottom: 20px; */
-    padding-top: 50px;
+    /* padding-top: 50px; */
     padding-bottom: 50px;
 }
 .projects{
@@ -125,12 +125,14 @@ nav.navbar{
 .contact_form{
     padding: 30px;
     background-color: #e4bb26;
+    margin-top: 50px;
 }
 .c_text{
     /* display: flex;
     justify-content: space-around; */
     padding: 30px;
     background-color: #e4bb26;
+    margin-top: 50px;
 }
 .col-md-5{
     padding: 30px;
