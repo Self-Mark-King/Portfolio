@@ -140,6 +140,9 @@ nav.navbar{
     border-radius: 4px;
     border: solid 1px #f9201e;
 }
+.c_text li{
+    list-style-type: none;
+}
 .col-md-5{
     padding: 30px;
 }
