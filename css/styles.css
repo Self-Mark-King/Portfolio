@@ -67,12 +67,16 @@ nav.navbar{
 #project-box{
     
     background-color: #3e7207;
-    margin-top: 50px;
-    padding: 40px;
+    /* margin-top: 50px; */
+    /* padding: 40px; */
 }
 .add_spacing {
     display: flex;
     justify-content: space-around;
+    /* margin-top: 20px; */
+    /* margin-bottom: 20px; */
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .projects{
     border: #f8512f 1px solid;
@@ -88,17 +92,20 @@ nav.navbar{
     width:300px;
 }   
 .test{
-    display: flex;
-    justify-content: center;
-    height: 50px;
-    margin-top: 42px;
-    /* text-align: justify; */
     background-color: #3e7207;
+    text-align: center;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* height: 50px; */
+    /* margin-top: 9px; */
+    padding-top: 50px;
+    /* text-align: justify; */
+    margin-bottom: 0px;
 }
-.test h2{
-    padding-top: 45px;
+/* .test h2{
+    padding-top: 25px;
     color: rgb(173, 204, 137);
-}
+} */
 .oxygen{
     font-family: 'Oxygen', sans-serif;
 }
