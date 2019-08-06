@@ -94,10 +94,27 @@ nav.navbar{
 }
 .test h2{
     padding-top: 45px;
+    color: rgb(173, 204, 137);
 }
 
 
 /* end projects */
+
+/* contact-body */
+.contact_box{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.contact_form{
+    padding: 30px;
+}
+.c_text{
+    /* display: flex;
+    justify-content: space-around; */
+    padding: 30px;
+}
+/* end contact-body */
 
 /* footer */
 aside a,
