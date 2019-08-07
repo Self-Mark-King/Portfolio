@@ -64,18 +64,12 @@ nav.navbar{
 /* end jumbtron */
 
 /* projects */
-#project-box{
-    
+#project-box{    
     background-color: #3e7207;
-    /* margin-top: 50px; */
-    /* padding: 40px; */
 }
 .add_spacing {
     display: flex;
     justify-content: space-around;
-    /* margin-top: 20px; */
-    /* margin-bottom: 20px; */
-    /* padding-top: 50px; */
     padding-bottom: 50px;
 }
 .projects{
@@ -83,9 +77,6 @@ nav.navbar{
     border: solid 1px #f9201e;
     background-color:#e4bb26;
     margin-top: 52px;
-    /* margin-left: 10px; */
-    /* margin-right: 10px; */
-    
     padding-left: 65px;
 }
 .projects img{
@@ -95,18 +86,9 @@ nav.navbar{
 .test{
     background-color: #3e7207;
     text-align: center;
-    /* display: flex; */
-    /* justify-content: center; */
-    /* height: 50px; */
-    /* margin-top: 9px; */
     padding-top: 50px;
-    /* text-align: justify; */
     margin-bottom: 0px;
 }
-/* .test h2{
-    padding-top: 25px;
-    color: rgb(173, 204, 137);
-} */
 .oxygen{
     font-family: 'Oxygen', sans-serif;
 }
@@ -149,14 +131,24 @@ nav.navbar{
 .form-group span::after{
     content: "*";
     color: #f8512f;
+}    
+.text-center span::after{
+    content: "*";
+    color:#f8512f;
 }
+
 input[type=text] {
     background-color: #3e7207;
     border: solid 1px #f9201e;
 }
-/* textarea{
+.btn{
     background-color: #3e7207;
-} */
+    color:#fff;
+    border: solid 1px #f9201e;
+}
+.form-control{
+    color:#fff;
+}
 /* end contact-body */
 
 /* footer */
