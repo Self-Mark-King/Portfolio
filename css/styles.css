@@ -200,6 +200,9 @@ footer .fine_print {
     .add_spacing{
         flex-direction: column;
     }
+    h2{
+        margin-top: 85px;
+    }
 }
 
 .vl{
