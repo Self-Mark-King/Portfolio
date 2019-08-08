@@ -33,7 +33,6 @@
 .navbar-default .navbar-nav>li>a{
     color:#f9201e;
     font-size: 20px;
-    text-shadow: 1pc 1xp 2px #0a0a0a;
 }
 .navbar-default .navbar-nav li a:hover,
 .navbar-default .navbar-nav li:focus{
